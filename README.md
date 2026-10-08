@@ -1,2 +1,25 @@
-# my_daily_words_flutter_fixed_v5
-Flutter project created by KLENCOD IDE
+# My Daily Words - Flutter
+
+تم تحويل تطبيق My Daily Words من Web/PWA إلى Flutter مع واجهة RTL ووظائف أساسية قابلة للتوسعة.
+
+## التشغيل
+```bash
+flutter pub get
+flutter run
+```
+
+## البناء للأندرويد
+```bash
+flutter build apk --release
+```
+
+## الوظائف الموجودة
+- شاشة ترحيب وحفظ اسم المستخدم
+- إضافة وتعديل وحذف الكلمات
+- كلمات جديدة وجميع الكلمات
+- البحث
+- نطق الكلمات الإنجليزية
+- تدريب تفاعلي واختيار الإجابة
+- XP ومستويات وسلسلة يومية
+- إحصائيات الدقة والكلمات المتقنة والكلمات الصعبة
+- تخزين محلي عبر SharedPreferences
